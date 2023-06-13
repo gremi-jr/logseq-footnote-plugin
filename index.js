@@ -56,7 +56,9 @@ import '@logseq/libs';
         }
       }
     }
-
+    //needed for entering footnotes after the footnote header
+    logseq.Editor.saveFocusedCodeEditorContent()
+    
     //adding footnote to text
     const block = await logseq.Editor.getBlock(e.uuid)
     const newBlockText = block.content + "[^"+ footnoteindex +"]"
