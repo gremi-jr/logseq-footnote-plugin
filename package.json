@@ -2,7 +2,6 @@
   "name": "logseq-footnote-plugin",
   "version": "0.0.3",
   "description": "Easy Footnote Plugin",
-  "repo":"gremi-jr/logseq-footnote-plugin",
   "main": "dist/index.html",
   "targets": {
     "main": false
