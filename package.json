@@ -1,7 +1,8 @@
 {
   "name": "logseq-footnote-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easy Footnote Plugin",
+  "repo":"gremi-jr/logseq-footnote-plugin",
   "main": "dist/index.html",
   "targets": {
     "main": false
@@ -11,7 +12,7 @@
     "build": "parcel build --no-source-maps index.html --public-url ./"
   },
   "keywords": [],
-  "author": "Timo Gremler",
+  "author": "gremi-jr",
   "license": "MIT",
   "dependencies": {
     "@logseq/libs": "0.0.15"
